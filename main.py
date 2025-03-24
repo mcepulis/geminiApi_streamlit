@@ -3,7 +3,6 @@ from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 from rich import print
-import streamlit as st
 
 load_dotenv()
 gemini_api_key = os.getenv("GEMINI_API_KEY")
