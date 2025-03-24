@@ -35,4 +35,5 @@ if prompt := st.chat_input("What is up?"):
             ]
         )
         st.markdown(response.text) 
+        
     st.session_state.messages.append({"role": "assistant", "content": response.text})

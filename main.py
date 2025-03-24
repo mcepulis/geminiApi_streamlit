@@ -11,7 +11,6 @@ client = genai.Client(
         api_key=gemini_api_key
     )
 
-
 with open("./image/photo.jpg", "rb") as f:
     image = f.read()
 
