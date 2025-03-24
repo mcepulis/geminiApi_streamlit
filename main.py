@@ -5,8 +5,6 @@ from dotenv import load_dotenv
 from rich import print
 import streamlit as st
 
-# 1. exercise
-
 load_dotenv()
 gemini_api_key = os.getenv("GEMINI_API_KEY")
 client = genai.Client(
